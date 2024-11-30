@@ -1,0 +1,27 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    gap: 10 0px;
+}
+
+.div-border-red{
+    width: 100%;
+}
+
+.div-border-blue{
+    width: 100%;
+}
+
+.div-buttons{
+    display: flex;
+    gap: 50px;
+}
