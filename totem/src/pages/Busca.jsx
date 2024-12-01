@@ -3,11 +3,14 @@ import '../styles/Buscabutton.css';
 import craImg from "../assets/cra.svg";
 import coordenadoriaImg from "../assets/coordenadoria.svg";
 import Title from "../components/TitleBusca"; // Ajuste o caminho se necessário
+import BorderBlue from "../components/BorderBlue.jsx";
+import BorderRed from "../components/BorderRed.jsx";
 
 function BotoesComImagens() {
   return (
-    <div>
+    <div className='container'>
       {/* Adiciona o título antes do conteúdo */}
+      <BorderRed/>
       <Title />
       
       <div className="button-container">
@@ -20,6 +23,7 @@ function BotoesComImagens() {
           Coordenadoria
         </button>
       </div>
+      < BorderBlue/>
     </div>
   );
 }

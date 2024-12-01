@@ -1,20 +1,16 @@
-.titulo-atendimento {
-  font-size: 8rem; /* Aumenta ainda mais o tamanho do texto */
-  color: #4A90E2;
-  text-align: center;
+.title-text {
+  font-size: 50 px; /* Aumenta ainda mais o tamanho do texto */
+  color: #e4ce23;
+ 
   font-family: 'Arial', sans-serif;
   margin-top: 60px; /* Aumenta o espaçamento superior */
   margin-bottom: 60px; /* Adiciona mais espaçamento inferior */
-  text-transform: uppercase;
+  
   letter-spacing: 4px; /* Aumenta o espaçamento entre letras */
-  border-bottom: 5px solid #4A90E2; /* Torna a linha mais grossa */
+  border-bottom: 5px solid #e2da4a; /* Torna a linha mais grossa */
   padding-bottom: 20px; /* Adiciona mais espaçamento entre o texto e a borda */
   line-height: 1.2; /* Ajusta o espaçamento entre as linhas */
-  max-width: 70%; /* Reduz a largura para centralizar mais */
-  margin-left: auto; /* Centraliza horizontalmente */
-  margin-right: auto; /* Centraliza horizontalmente */
-  display: flex; /* Garante o alinhamento com flexbox */
-  justify-content: center; /* Centraliza o conteúdo */
-  align-items: center; /* Alinha verticalmente */
+ 
+  
 }
 
