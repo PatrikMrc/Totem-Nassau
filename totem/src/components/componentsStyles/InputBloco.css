@@ -7,14 +7,14 @@
     font-size: 30px;
     font-weight: 600;
     gap: 10px;
+    width: 300px;
 }
 
-.input-select{
-    padding: 30px;
-    padding-right: 20px;
-    width: 100%;
-    border-radius: 13px;
-    border: none;
-    color: #7a7a7a;
-}
 
+option {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: "Source Sans 3", serif;
+    font-size: 20px;
+    font-weight: 600;
+  }

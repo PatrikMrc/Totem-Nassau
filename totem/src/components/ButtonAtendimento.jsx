@@ -1,6 +1,5 @@
 import React from "react";
-import atendimento from '../assets/atendimento.svg'
-import './componentsStyles/ButtonAtendimento.css'
+import atendimento from '../assets/atendimento.png'
 function ButtonAtendimento(){
     return(
         <>
