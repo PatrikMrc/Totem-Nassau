@@ -1,0 +1,33 @@
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 40px; /* Espaçamento maior entre os botões */
+    margin-top: 50px; /* Aumenta o espaçamento superior */
+    height: 100vh; /* Faz a container ocupar toda a altura da tela */
+  }
+  
+  .image-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Aumenta o espaçamento entre a imagem e o texto */
+    padding: 20px 40px; /* Aumenta o padding para botões maiores */
+    font-size: 1.8rem; /* Aumenta o tamanho da fonte */
+    border: none;
+    border-radius: 15px; /* Aumenta o arredondamento dos cantos */
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efeito de transição mais suave */
+  }
+  
+  .image-button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+  }
+  
+  .button-image {
+    width: 80px; /* Aumenta o tamanho da imagem */
+    height: 80px; /* Aumenta o tamanho da imagem */
+  }
+  
