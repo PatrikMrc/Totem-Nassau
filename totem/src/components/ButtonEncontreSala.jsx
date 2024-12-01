@@ -1,10 +1,9 @@
 import React from "react";
-import encontreSala from '../assets/encontre.svg' 
-import './componentsStyles/ButtonEncontreSala.css'
+import encontreSala from '../assets/encontre.png' 
 function ButtonEncontreSala(){
     return(
         <>
-            <img src={encontreSala} alt="botao de encontre sua sala" />
+            <img className="button" src={encontreSala} alt="botao de encontre sua sala" />
         </>
     )
 }

@@ -1,6 +1,7 @@
 import BorderBlue from '../components/BorderBlue.jsx'
 import BorderRed from '../components/BorderRed.jsx'
 import InputBloco from '../components/InputBloco.jsx';
+import InputNum from '../components/InputNum.jsx'
 import '../styles/BuscaSala.css'
 
 function BuscaSala() {
@@ -12,10 +13,7 @@ function BuscaSala() {
           <BorderRed/>
         </div> 
         <div className='content'>
-            <div className='label'>
-                <span className='title-label'>Numero:</span>
-                <input className='input-label' placeholder='Digite O Numero Da Sala' type="text" />
-            </div>
+                <InputNum/>
                 <InputBloco/>
         </div>     
         <div className='div-border-blue'>
