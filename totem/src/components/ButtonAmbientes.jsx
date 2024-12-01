@@ -4,7 +4,7 @@ import './componentsStyles/ButtonAmbientes.css'
 function ButtonAmbientes(){
     return(
         <>
-            <img className="button-ambientes" src={ambientes} alt="botao de ambientes coletivos" />
+                <img className="button-ambientes" src={ambientes} alt="botao de ambientes coletivos" />
         </>
     )
 }

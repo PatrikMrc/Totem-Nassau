@@ -9,8 +9,8 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    gap: 10 0px;
+    background-color: rgb(48, 48, 48);
+    gap: 100px;
 }
 
 .div-border-red{
