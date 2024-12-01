@@ -11,23 +11,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Aumenta o espaçamento entre a imagem e o texto */
-    padding: 20px 40px; /* Aumenta o padding para botões maiores */
-    font-size: 1.8rem; /* Aumenta o tamanho da fonte */
+    gap: 20px; /* Espaçamento entre imagem e texto */
+    padding: 30px 50px; /* Padding maior para destaque */
+    font-size: 3rem; /* Tamanho do texto ajustado */
     border: none;
-    border-radius: 15px; /* Aumenta o arredondamento dos cantos */
+    border-radius: 20px; /* Bordas mais arredondadas */
     background-color: #f0f0f0;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Efeito de transição mais suave */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efeitos suaves */
   }
   
   .image-button:hover {
     background-color: #e0e0e0;
-    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+    transform: scale(1.1); /* Leve aumento ao passar o mouse */
   }
   
   .button-image {
-    width: 80px; /* Aumenta o tamanho da imagem */
-    height: 80px; /* Aumenta o tamanho da imagem */
+    width: 150px; /* Maior largura da imagem */
+    height: 150px; /* Maior altura da imagem */
   }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite que os botões fiquem em várias linhas */
+    gap: 30px; /* Espaçamento entre os botões */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    margin: 0; /* Remove margens extras */
+    padding: 0; /* Remove paddings extras */
+    box-sizing: border-box; /* Garante que padding e borda não afetem o tamanho */
+  }
+  
+  
   
