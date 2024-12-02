@@ -1,5 +1,5 @@
 import React from 'react';
-import './TitleBusca.css';
+import './componentsStyles/TitleBusca.css';
 
 function TitleBusca() {
   return (
