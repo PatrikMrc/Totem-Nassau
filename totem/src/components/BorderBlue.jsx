@@ -8,5 +8,4 @@ function BorderBlue(){
         </>
     )
 }
-
 export default BorderBlue;

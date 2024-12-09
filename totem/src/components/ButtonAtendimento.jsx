@@ -8,7 +8,7 @@ function ButtonAtendimento(){
     const navigate = useNavigate();
 
     const handleImageClick = () => {
-      navigate("/busca");
+      navigate("/atendimentoaoaluno");
     };
 
     return(
